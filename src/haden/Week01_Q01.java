@@ -19,6 +19,8 @@ public class Week01_Q01 {
 
         identify(number);
 
+        scn.close();
+
     }
     private static void identify(int i) {
 
