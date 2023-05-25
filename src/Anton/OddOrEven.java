@@ -9,12 +9,17 @@ public class OddOrEven {
         System.out.println("Enter a number: ");
         int number = input.nextInt();
 
-        input.close();
+        Identify(number);
 
-        if (number % 2 == 0){
-            System.out.println(number + " is a even number");
-        }else{
-            System.out.println(number + " is a odd number");
-        }
+        input.close();
+    }
+    private static void Identify(int a){
+
+        if (a % 2 == 0){
+            System.out.println(a + " is a even number");
+        }else
+            System.out.println(a + " is a odd number");
     }
 }
+
+
