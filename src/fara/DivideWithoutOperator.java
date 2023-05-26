@@ -1,8 +1,5 @@
 package fara;
 
-
-
-
 public class DivideWithoutOperator {
     public static void Divide2Numbers() {
 
