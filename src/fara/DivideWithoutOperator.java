@@ -16,7 +16,6 @@ public class DivideWithoutOperator {
         System.out.println(quotient + " with a remainder of " + dividend);
 
     }
-
     public static void main(String[] args) {
         Divide2Numbers();
 
