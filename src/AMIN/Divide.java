@@ -6,22 +6,23 @@ public class Divide {
 
 
         public static void main(String[] args) {
-            int result = 0;
-            Scanner input =new Scanner(System.in);
-            System.out.println("Enter first ");
-            int a = input.nextInt();
-            System.out.println("Enter second");
-            int b = input.nextInt();
-            int c = a + b;
 
-            while(c>b)
-            {
-                c = c - b;
-                result ++;
-            }
-
-            System.out.println("the result is : "+ result);
+            divide(66,4);
 
         }
+
+        public static void divide(int a,int b){
+            if (b==0){
+                System.out.println("Invalid number");
+                System.exit(0);
+            }
+            int result =0;
+            while(a >= b){
+                a-=b;
+                result++;
+            }
+            System.out.println("RESULT "+result+" REMAINDER "+ a);
+        }
+
     }
 
