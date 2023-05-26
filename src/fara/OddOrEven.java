@@ -26,7 +26,7 @@ identify(6); ->"Even"
             System.out.println(number+ " is an odd number");
         }
 
-
+input.close();
     }
 
     public static void main(String[] args) {
