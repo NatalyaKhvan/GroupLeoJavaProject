@@ -1,6 +1,6 @@
 package natalya;
 
-public class divideWithoutOperator {
+public class DivideWithoutOperator {
 
     public static void main(String[] args) {
 
