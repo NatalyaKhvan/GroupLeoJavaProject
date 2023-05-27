@@ -1,6 +1,9 @@
 package farangez;
 
 public class OddOrEven {
+    public static void main(String[] args) {
+        oddOrEven(3);
+    }
 
         public static void oddOrEven(int num) {
 
