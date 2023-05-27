@@ -1,6 +1,9 @@
 package farangez;
 
 public class FINRA {
+    public static void main(String[] args) {
+        FINRA();
+    }
 
     public static void FINRA() {
         for (int i = 1; i <= 30; i++) {
