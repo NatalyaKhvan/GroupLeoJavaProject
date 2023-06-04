@@ -1,13 +1,25 @@
 package natalya;
 
+import java.util.Scanner;
+
 public class ReverseNegativeNumber {
 
     public static void main(String[] args) {
 
-        System.out.println(reverseDigits(-5796));
-        System.out.println(reverseDigits(-35));
+        Scanner input = new Scanner(System.in);
+        System.out.println("Enter a negative number:");
+        int n = input.nextInt();
+
+        while (n >= 0) {
+            System.out.println(n + " is not a negative number. Enter a negative number:");
+            n = input.nextInt();
+        }
+
+        System.out.println(reverseDigits(n));
+        input.close();
 
     }
+
 
     public static int reverseDigits(int num) {
 
