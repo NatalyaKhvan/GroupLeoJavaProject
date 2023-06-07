@@ -17,6 +17,8 @@ public class Week03_Q01 {
         int num = scn.nextInt();
         System.out.println(primeNumber(num));
 
+        scn.close();
+
     }
 
     // First Solution
