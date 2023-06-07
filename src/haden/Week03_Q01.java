@@ -32,6 +32,7 @@ public class Week03_Q01 {
                 return false;
             }
         }
+        System.out.println(num + " is a prime number");
         return true;
     }
 
