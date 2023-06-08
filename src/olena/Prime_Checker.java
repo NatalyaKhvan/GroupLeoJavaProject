@@ -1,5 +1,6 @@
 package olena;
-
+/*PrimeNumber**
+Write a method that can check if a number is prime or not*/
 public class Prime_Checker {
     public static boolean isPrime(int number) {
         if (number < 2) {
