@@ -1,8 +1,20 @@
 package natalya;
 
+import java.util.Scanner;
+
 public class ConsecutiveNumbers {
 
     public static void main(String[] args) {
+
+        Scanner input = new Scanner(System.in);
+        System.out.println("Enter a number: ");
+        int n = input.nextInt();
+        consecutiveNumbers(n);
+
+        input.close();
+    }
+
+    public static void consecutiveNumbers(int n){
 
         /*
         Numbers -- print consecutive numbers
@@ -36,7 +48,6 @@ public class ConsecutiveNumbers {
         // divisibleBy3 && divisibleBy5 ==> TestCoders
         // divisibleBy2 && divisibleBy3 && divisibleBy5 ==> CodilityTestCoders
 
-        int n = 17;
 
         String divBy2 = "Codility";
         String divBy3 = "Test";
@@ -68,5 +79,3 @@ public class ConsecutiveNumbers {
         }
     }
 }
-
-
