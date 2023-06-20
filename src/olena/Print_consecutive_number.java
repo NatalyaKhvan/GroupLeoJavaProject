@@ -17,7 +17,7 @@ public class Print_consecutive_number {
             } else if (i % 3 == 0 && i % 5 == 0) {  //This line checks if i is divisible by 3 and 5, but not by 2.
                 System.out.println("TestCoders");
 
-            } else if (i % 2 == 0) { //It checks if i is divisible by 2, but not by 3 or 5.
+            } else if (i % 2 == 0) { //It checks if is divisible by 2, but not by 3 or 5.
                 System.out.println("Codility");
 
             } else if (i % 3 == 0) { // This line checks if i is divisible by 3, but not by 2 or 5.
