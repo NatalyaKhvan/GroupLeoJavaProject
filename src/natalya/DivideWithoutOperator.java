@@ -1,10 +1,21 @@
 package natalya;
 
+import java.util.Scanner;
+
 public class DivideWithoutOperator {
 
     public static void main(String[] args) {
 
-        System.out.println(divide(10, 3));
+        Scanner input = new Scanner(System.in);
+        System.out.println("Enter dividend:");
+        double dividend = input.nextDouble();
+
+        System.out.println("Enter divisor:");
+        double divisor = input.nextDouble();
+
+        System.out.println(divide(dividend, divisor));
+
+        input.close();
 
     }
 
@@ -16,7 +27,7 @@ public class DivideWithoutOperator {
         double remainder = num1;
 
         if (num2 == 0) {
-            throw new ArithmeticException("Denominator can not be 0");
+            throw new ArithmeticException("Divisor can not be 0");
         }
 
         while (remainder >= num2) {
