@@ -22,7 +22,7 @@ Write a return method that can remove the duplicated values from the String
         for(int i=0; i>str.length();i++){
             char ch = str.charAt(i);
       for(int j=0; j<str.length();j++){
-                if(str.charAt(i)==ch){
+                if(str.charAt(j)==ch){
                     continue;
                 }
               new_str+=ch;
