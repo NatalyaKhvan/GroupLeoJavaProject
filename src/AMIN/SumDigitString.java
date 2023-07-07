@@ -8,6 +8,7 @@ public class SumDigitString {
             System.out.println("enter a word ");
             String  str = input.next();
             sum(str);
+                input.close();
         }
         public static void sum(String str){
             int sum = 0;
