@@ -7,7 +7,7 @@ public class Divide_two_numbers {
             throw new ArithmeticException("Division by zero is not allowed.");
         }
 
-        // Determine the sign of the result
+        // Determine the sign of the result there
         int sign = (dividend < 0) ^ (divisor < 0) ? -1 : 1;
 
         // Convert dividend and divisor to positive values
