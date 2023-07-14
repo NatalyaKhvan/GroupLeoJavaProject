@@ -1,6 +1,5 @@
-package Natasha;
+package natasha;
 
-import java.util.Arrays;
 import java.util.Scanner;
 
 public class StringSameLetters {

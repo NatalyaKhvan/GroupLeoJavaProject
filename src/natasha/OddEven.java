@@ -1,4 +1,4 @@
-package Natasha;
+package natasha;
 
 public class OddEven {
     public static void OddOrEven(int number){

@@ -1,4 +1,4 @@
-package Natasha;
+package natasha;
 import java.util.Scanner;
 
 public class ReverseNegativeNumber {

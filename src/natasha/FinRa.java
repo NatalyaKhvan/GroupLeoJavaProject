@@ -1,4 +1,4 @@
-package Natasha;
+package natasha;
 
 public class FinRa {
     public static void Finra() {

@@ -1,4 +1,4 @@
-package Natasha;
+package natasha;
 
 public class Division {
     public static void divide(int num1, int num2) {
