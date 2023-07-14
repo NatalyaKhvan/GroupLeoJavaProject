@@ -1,4 +1,4 @@
-package Natasha;
+package natasha;
 
 public class ArrayFindMaximum {
         public static int findMaximum(int[] arr) {

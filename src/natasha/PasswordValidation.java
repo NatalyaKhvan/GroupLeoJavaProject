@@ -1,4 +1,4 @@
-package Natasha;
+package natasha;
 
 public class PasswordValidation {
         public static boolean isValidPassword(String password) {
